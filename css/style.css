@@ -1,14 +1,14 @@
-
 .quicksand-normal {
-  font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .display-flex {
     display: flex;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -21,6 +21,7 @@ nav {
     height: 62px;
     display: flex;
 }
+
 .school {
     font-size: 32px;
     font-weight: bolder;
@@ -35,12 +36,15 @@ nav {
 .home {
     color: orange;
 }
+
 .about {
     color: skyblue;
 }
+
 .facilities {
     color: #05D4DF;
 }
+
 .admission {
     color: #5D58EF;
 }
@@ -72,9 +76,11 @@ nav {
     width: 640px;
     height: 331px;
 }
+
 .title-content {
     font-weight: bold;
 }
+
 .empower {
     color: orange;
 }
@@ -107,6 +113,7 @@ nav {
     font-weight: bold;
     font-size: 46px;
 }
+
 /* card design styles  */
 
 .card-container {
@@ -123,7 +130,7 @@ nav {
     text-align: center;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 /* shared styles */
@@ -155,6 +162,7 @@ nav {
 .read-1 {
     color: #64C8FF;
 }
+
 .read-2 {
     color: #F0AA00;
 }
@@ -167,6 +175,7 @@ nav {
     font-size: 25px;
     font-weight: bold;
 }
+
 .card-description {
     color: #808080;
     font-weight: medium;
@@ -235,6 +244,7 @@ nav {
     font-weight: bold;
     font-size: 46px;
 }
+
 .stories-container {
     margin: 20px 100px;
     gap: 19px;
@@ -277,6 +287,7 @@ nav {
     margin-left: 20px;
     margin-top: -60px;
 }
+
 .btn-story-2 {
     border: none;
     width: 174px;
@@ -287,6 +298,7 @@ nav {
     margin-left: 20px;
     margin-top: -60px;
 }
+
 .btn-story-3 {
     border: none;
     width: 179px;
@@ -308,6 +320,7 @@ nav {
     margin-left: 20px;
     margin-top: -60px;
 }
+
 .text-description {
     color: #000000;
     width: 198px;
@@ -315,7 +328,7 @@ nav {
     font-weight: bold;
     font-size: 15px;
     margin-left: 20px;
-    
+
 
 }
 
@@ -329,6 +342,7 @@ nav {
     margin-bottom: 60px;
     cursor: pointer;
 }
+
 .btn {
     text-align: center;
 }
@@ -362,8 +376,9 @@ footer {
     margin-top: 20px;
 }
 
-.media-link img{
+.media-link img {
     display: inline-block;
+    margin-top: -50px;
 }
 
 .school-description {
@@ -375,15 +390,39 @@ footer {
 }
 
 .touch {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
+
 /* responsive design here  */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    nav {
+    nav .nav-links {
         display: none;
+    }
+
+    .nav-links a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .school {
+        display: none;
+    }
+
+    .card-container, 
+    .stories-container, 
+    .second-stories {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-section {
+        flex-direction: column;
     }
     .banner {
         flex-direction: column-reverse;
     }
+
 }
