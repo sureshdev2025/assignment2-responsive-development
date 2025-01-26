@@ -1,0 +1,357 @@
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.display-flex {
+    display: flex;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    display: flex;
+}
+.school {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.home {
+    color: orange;
+}
+.about {
+    color: skyblue;
+}
+.facilities {
+    color: #05D4DF;
+}
+.admission {
+    color: #5D58EF;
+}
+
+.btn-primary {
+    background-color: orange;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    border: none;
+    width: 197px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner {
+    margin: 20px 100px;
+    gap: 50px;
+    display: flex;
+    width: 1158px;
+    height: 575px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    width: 640px;
+    height: 331px;
+}
+.title-content {
+    font-weight: bold;
+}
+.empower {
+    color: orange;
+}
+
+.towards {
+    color: skyblue;
+}
+
+.enroll {
+    background-color: black;
+    color: white;
+    width: 197px;
+    height: 50px;
+    font-size: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner-image {
+    width: 468px;
+    height: 575px;
+}
+
+
+.curriculum {
+    background-image: url("/assets/bg.png");
+    text-align: center;
+    font-weight: bold;
+    font-size: 46px;
+}
+/* card design styles  */
+
+.card-container {
+    margin: 20px 100px;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    /* width: 1160px; */
+    /* height: 630px; */
+}
+
+.card {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* shared styles */
+
+.text-light-gray {
+    color: #666666;
+}
+
+.card-1 {
+    background-color: linear-gradient(rgba(222, 245, 255, 1));
+    border: 1px solid #DEF5FF;
+    border-radius: 19px;
+    opacity: 100%;
+}
+
+.card-2 {
+    border-radius: 19px;
+    border: 1px solid #FFF4DC;
+    background-color: linear-gradient(rgba(255, 244, 220, 1));
+}
+
+.card-3 {
+    border-radius: 19px;
+    border: 1px solid #F2E8FF;
+    background-color: linear-gradient(rgba(238, 225, 255, 1));
+}
+
+
+.read-1 {
+    color: #64C8FF;
+}
+.read-2 {
+    color: #F0AA00;
+}
+
+.read-3 {
+    color: #8700FF;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-description {
+    color: #808080;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+
+/* arrow sign  */
+
+
+
+/* stories related styles  */
+
+.btn-first {
+    border: none;
+    font-weight: medium;
+    font-size: 16px;
+    width: 175px;
+    height: 48px;
+    margin-left: 20px;
+    border-radius: 48px;
+    margin-right: 100px;
+    margin-top: -100px;
+    background-color: #3CD8E8;
+    color: white;
+}
+
+.firstone {
+    margin-left: 20px;
+}
+
+.stories-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 46px;
+}
+.stories-container {
+    margin: 20px 100px;
+    gap: 19px;
+    position: relative;
+    width: 1160px;
+    height: 630px;
+    background-image: url("/assets/bg.png");
+    background-color: linear-gradient(rgba(254, 163, 1, 1));
+}
+
+.first-stories {
+    border: 2px solid #D9D9D9;
+    width: 540px;
+    height: 630px;
+    border-radius: 16px;
+}
+
+.second-stories {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+
+.story {
+    border: 1px solid #D9D9D9;
+    border-radius: 16px;
+    width: 290px;
+    height: 301px;
+}
+
+.btn-story-1 {
+    border: none;
+    width: 174px;
+    height: 38px;
+    border-radius: 47px;
+    background-color: #95B226;
+    color: white;
+    margin-left: 20px;
+    margin-top: -60px;
+}
+.btn-story-2 {
+    border: none;
+    width: 174px;
+    height: 38px;
+    border-radius: 47px;
+    background-color: #5D58F0;
+    color: white;
+    margin-left: 20px;
+    margin-top: -60px;
+}
+.btn-story-3 {
+    border: none;
+    width: 179px;
+    height: 38px;
+    border-radius: 47px;
+    background-color: #95B226;
+    color: white;
+    margin-left: 20px;
+    margin-top: -60px;
+}
+
+.btn-story-4 {
+    border: none;
+    width: 127px;
+    height: 38px;
+    border-radius: 47px;
+    background-color: #95B226;
+    color: white;
+    margin-left: 20px;
+    margin-top: -60px;
+}
+.text-description {
+    color: #000000;
+    width: 198px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+    
+
+}
+
+.btn-view {
+    height: 20px;
+    width: 122px;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.btn {
+    text-align: center;
+}
+
+/* footer design styles */
+footer {
+    width: 1340px;
+    height: 400px;
+    background-color: #01ACFD;
+}
+
+
+.footer-section {
+    margin-top: 140px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-1 {
+    gap: 10px;
+    display: flex;
+    width: 300px;
+    height: 82px;
+    align-items: center;
+}
+
+.footer-link a {
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.media-link img{
+    display: inline-block;
+}
+
+.school-description {
+    margin-top: 35px;
+}
+
+.about-school {
+    margin-top: 35px;
+}
+
+.touch {
+    margin-bottom: 60px;
+}
+/* responsive design here  */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    nav {
+        display: none;
+    }
+    .banner {
+        flex-direction: column-reverse;
+    }
+}
