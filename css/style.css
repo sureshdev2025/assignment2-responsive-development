@@ -252,7 +252,7 @@ nav {
     width: 1160px;
     height: 630px;
     background-image: url("/assets/bg.png");
-    background-color: linear-gradient(rgba(254, 163, 1, 1));
+    background-image: linear-gradient(rgba(254, 163, 1, 1));
 }
 
 .first-stories {
